@@ -7,6 +7,8 @@ Welcome to the PowerShell Port Scanner. This PowerShell script is designed to sc
 ## Table of Contents
 
 - [Why Use This Script](#why-use-this-script)
+- [Languages and Utilities Used](#languages-and-utilities-used)
+- [Environments Used](#environments-used)
 - [Functions](#functions)
 - [Dependencies and Permissions](#dependencies-and-permissions)
 - [Ethical Considerations](#ethical-considerations)
@@ -29,6 +31,23 @@ Port scanning is a fundamental aspect of network and system administration, prov
 - **Customization:** You can customize this script to suit your specific needs. Modify it to scan specific port ranges, automate routine port scans, or integrate it into your network monitoring tools.
 
 By using this script responsibly and ethically, you can enhance your network management and security practices while gaining valuable insights into your network's configuration and potential vulnerabilities.
+
+## Languages and Utilities Used
+
+- **PowerShell**
+
+[<img alt="PowerShell Icon" width="50px" src="https://raw.githubusercontent.com/PowerShell/PowerShell/master/assets/ps_black_64.svg?sanitize=true" />][powershell]
+
+[powershell]: https://learn.microsoft.com/en-us/powershell/
+
+## Environments Used
+
+- **Windows 10**
+
+[<img align="left" alt="Microsoft Icon" width="35px" src="https://upload.wikimedia.org/wikipedia/commons/3/34/Windows_logo_-_2012_derivative.svg" />][windows]
+
+[windows]: https://www.microsoft.com/
+<br /><br />
 
 ## Functions
 
@@ -71,14 +90,22 @@ This script is provided for educational and informational purposes only. The aut
 2. **Open PowerShell:** Open a PowerShell terminal.
 
 3. **Navigate to the Script Directory:** Use the **_'cd'_** command to navigate to the directory where port_scanner.ps1 is located.
+   
+4. **PowerShell Execution Policy** Ensure that PowerShell execution policy allows script execution. You may need to run **_'Set-ExecutionPolicy RemoteSigned'_** to enable script execution.
 
-4. **Execute the Script:** Run the script by typing **_'.\port_scanner.ps1'_** and pressing Enter.
+5. **Execute the Script:** Run the script by typing **_'.\port_scanner.ps1'_** and pressing Enter.
 
-5. **Follow the Prompts:** The script will prompt you to enter the target IP address or hostname and specify the port range for scanning. Follow the on-screen instructions.
+6. **Follow the Prompts:** The script will prompt you to enter the target IP address or hostname and specify the port range for scanning. Follow the on-screen instructions.
 
-6. **View the Results:** After the scan is complete, the script will display open ports, save a report to a file, and provide the file path for viewing.
+<div align="center"> 
+<img align="center" src="https://github.com/infinity-set/port_scanner_ps/assets/142350896/4b0fa5f1-12c8-413b-acf9-41f7a6bc5a42" height="60%" width="60%" alt="Run Script Example"/>
+</div> 
 
-   Note: Ensure that PowerShell execution policy allows script execution. You may need to run **_'Set-ExecutionPolicy RemoteSigned'_** to enable script execution.
+7. **View the Results:** After the scan is complete, the script will display open ports, save a report to a file, and provide the file path for viewing.
+
+<div align="center"> 
+<img align="center" src="https://github.com/infinity-set/port_scanner_ps/assets/142350896/369c9524-b6b7-4789-b61c-b897a10705eb" height="60%" width="60%" alt="Run Script Example"/>
+</div> 
 
 ## Example Usage
 
