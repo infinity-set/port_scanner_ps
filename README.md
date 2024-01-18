@@ -123,6 +123,10 @@ The script will perform the port scan, display open ports (if any), and generate
 
 You can view the scan report in the specified file path.
 
+## Python Version
+
+- [Port Scanner](https://github.com/infinity-set/port_scanner)
+
 #
 <br>
 
